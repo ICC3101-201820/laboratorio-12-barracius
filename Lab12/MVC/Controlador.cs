@@ -7,10 +7,11 @@ using Modelo;
 
 namespace MVC
 {
+    [Serializable]
     class Controlador
     {
         public Form1 form1;
-        private ListaComida comidas;
+        public ListaComida comidas;
 
         public Controlador()
         {
